@@ -1,0 +1,38 @@
+.block {
+    width: 500px;
+    height: 500px;
+    /* outline: solid red; */
+    position: relative;
+    margin: auto;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    /* outline: solid blue; */
+}
+
+.box1 {
+    position: absolute;
+    left: 65%;
+    bottom: 75px;
+    transform: translate(-50%, 0);
+    background-color: #4DEF99;
+}
+
+.box2 {
+    position: absolute;
+    left: 35%;
+    top: 75px;
+    transform: translate(-50%, 0);
+    background-color: #FF8888;
+}
+
+.box3 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    background-color: #7E8AEB;
+}
